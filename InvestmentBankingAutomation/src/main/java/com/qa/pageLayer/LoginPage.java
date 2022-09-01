@@ -7,5 +7,11 @@ public class LoginPage {
 	
 	@FindBy(xpath = " ")
 	private WebElement username;
+	
+	public static void main (String [] args)
+	{
 
+	System.out.println("Please provide the Username");
+
+}
 }
